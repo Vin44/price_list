@@ -17,7 +17,7 @@ jobs:
     # Build and tag the Docker image
     - run: |
         # Set the image tag
-        IMAGE_TAG=vinprice.azurecr.io/pricelist:v1
+        IMAGE_TAG=vinprice.azurecr.io/pricelist1:v1
 
         # Build the Docker image (overwrites existing image with same tag)
         docker build . -t $IMAGE_TAG
